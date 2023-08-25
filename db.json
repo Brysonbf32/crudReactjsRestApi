@@ -1,0 +1,18 @@
+{
+  "employee": [
+    {
+      "name": "Bryson Bahati",
+      "email": "brysonbf32@gmail.com",
+      "phone": "67292715",
+      "active": true,
+      "id": 6
+    },
+    {
+      "name": "Bryson Bahati",
+      "email": "brysonbf32@gmail.com",
+      "phone": "67292715",
+      "active": true,
+      "id": 7
+    }
+  ]
+}

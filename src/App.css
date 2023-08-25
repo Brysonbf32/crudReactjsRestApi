@@ -1,12 +1,33 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.btn1{
+background-color: blue;
+margin-left: 8%;
+padding: 5px;
+border: 1px solid blue;
+color: white;
 
+}
+
+.num1{
+  color: black;
+  font-weight: bold;
+  margin-left: 8.5%;
+  padding-left: 2%;
+}
+.div2{
+  margin-left: 6%;}
+.titre2{
+  color: black;
+  font-weight: bold;
+  padding-left: 2%;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +56,88 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* =========================EMPLOYEE========================================================== */
+.emplist{
+  font-size:medium;
+  font-weight: bold;
+  color: #3998B6;
+}
+.tblsla{
+ width: 200px!important;
+}
+.crename{
+  font-size: 15px;
+  color: #3998B6!important;
+  font-weight: bold;
+}
+.containertable{
+  border: 1px solid #F5F5F5;
+  border-radius: 0.5px;
+  background-color: #F5F5F5;
+}
+.btnAdd{
+  background-color: #3998B6;
+  border: 1px soli #3998B6;
+  padding: 10px;
+  font-size: small;
+  text-decoration: none;
+  color: #F5F5F5;
+  font-weight: bold;
+  border-radius: 0.3px;
+}
+.btnedit{
+  background-color: #3998B6!important;
+  font-size: small;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #F5F5F5;
+  border: 1px solid #3998B6;
+  border-radius: 0.3px;
+  cursor: pointer;
+}
+.btnsave{
+  background-color: #3998B6!important;
+  font-size: small;
+  padding: 5.6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #F5F5F5;
+  border: 1px solid #3998B6;
+  border-radius: 0.3px;
+  cursor: pointer;
+}
+.btnremove{
+  background-color: #BE828C!important;
+  font-size: small;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #F5F5F5;
+  border: 1px solid #BE828C;
+  border-radius: 0.3px;
+  cursor: pointer;
+}
+.btndetails{
+  background-color: #A4B4C2!important;
+  font-size: small;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #F5F5F5;
+  border: 1px solid #A4B4C2;
+  border-radius: 0.3px;
+  cursor: pointer;
+}
+.labelform{
+  font-weight: bold;
+}
+.inpuenre:focus{
+  box-shadow: none!important;
+  border: 1px solid white;
+  border-color: none;
+}
+.theadcl{
+  background-color: red!important;
 }
